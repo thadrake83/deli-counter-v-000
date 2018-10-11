@@ -17,7 +17,7 @@ def line(katz_deli)
   else
     message = "The line is currently:"
     katz_deli.each do |value, index|
-      message += " #{index.to_i+1}. #{value}"
+      message += " #{index.shift}. #{value}"
     end
     puts "#{message}"
   end
