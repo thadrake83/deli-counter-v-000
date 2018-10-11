@@ -19,6 +19,6 @@ def line(katz_deli)
     katz_deli.each do |value, index|
       message += " #{index.to_i+1}. #{value}"
     end
-    "#{message}"
+    puts "#{message}"
   end
 end
