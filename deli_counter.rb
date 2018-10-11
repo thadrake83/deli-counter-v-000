@@ -21,4 +21,5 @@ def line(katz_deli)
     end
     "#{message}"
   end
-  
+end
+
